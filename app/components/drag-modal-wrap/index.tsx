@@ -131,7 +131,7 @@ const DragModalWrap = ({ children }: { children: React.ReactNode }) => {
     <div
       ref={wrapRef}
       className={cn(
-        "fixed z-50 w-1/2 h-1/2 border bg-white transition-opacity rounded-2xl overflow-hidden",
+        "fixed z-50 w-1/2 h-1/2 border bg-white transition-opacity rounded-2xl overflow-hidden shadow-lg",
         {
           "opacity-50": isDragging,
         }
